@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "regen-1",
     "chain_name": "Regen",
-    "chain_image": "regen/resource/chain_regen.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/resource/chain_regen.png",
     "symbol" : "REGEN",
-    "symbol_image" : "regen/asset/regen.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/regen/asset/regen.png",
     "bechAccountPrefix" : "regen",
     "bechValidatorPrefix" : "regenvaloper",
     "name_for_dapp" : "REGEN", 
@@ -36,6 +36,28 @@
         {
             "provider": "Notional",
             "url": "grpc-regen-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-regen.cosmostation.io/"
+        },
+        {
+            "provider": "vitwit",
+            "url": "http://public-rpc.regen.vitwit.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://regen.api.m.stavr.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://regen-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-regen.ecostake.com/"
         }
     ],
     "explorer" : {

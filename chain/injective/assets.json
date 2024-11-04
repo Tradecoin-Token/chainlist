@@ -1504,5 +1504,105 @@
     "description": "Wrapped Matic",
     "image": "polygon/asset/wmatic.png",
     "coinGeckoId": "wmatic"
+  },
+  {
+    "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
+    "type": "ibc",
+    "origin_chain": "neutron",
+    "origin_denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz",
+    "origin_type": "native",
+    "symbol": "NBZ",
+    "decimals": 6,
+    "enable": true,
+    "path": "neutron>injective",
+    "channel": "channel-177",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-60",
+      "port": "transfer",
+      "denom": "factory/neutron1a6ydq8urdj0gkvjw9e9e5y9r5ce2qegm9m4xufpt96kcm60kmuass0mqq4/nbz"
+    },
+    "image": "neutron/asset/nbz.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "ibc/93EAE5F9D6C14BFAC8DD1AFDBE95501055A7B22C5D8FA8C986C31D6EFADCA8A9",
+    "type": "ibc",
+    "origin_chain": "noble",
+    "origin_denom": "ausdy",
+    "origin_type": "native",
+    "symbol": "USDY",
+    "decimals": 18,
+    "enable": true,
+    "path": "noble>injective",
+    "channel": "channel-148",
+    "port": "transfer",
+    "counter_party": {
+      "channel": "channel-31",
+      "port": "transfer",
+      "denom": "ausdy"
+    },
+    "image": "ethereum/asset/usdy.png",
+    "coinGeckoId": "ondo-us-dollar-yield"
+  },
+  {
+    "denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1dxp690rd86xltejgfq2fa7f2nxtgmm5cer3hvu/bINJ",
+    "origin_type": "native",
+    "symbol": "bINJ",
+    "decimals": 18,
+    "description": "BackBoneLabs Liquid Staked Injective",
+    "image": "injective/asset/bINJ.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
+    "origin_type": "native",
+    "symbol": "SYN",
+    "decimals": 6,
+    "description": "Syndicate",
+    "image": "injective/asset/syn.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj1ej2f3lmpxj4djsmmuxvnfuvplrut7zmwrq7zj8/syn.ash",
+    "origin_type": "native",
+    "symbol": "ashSYN",
+    "decimals": 6,
+    "description": "SYN burn derivative",
+    "image": "injective/asset/syn.ash.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj178zy7myyxewek7ka7v9hru8ycpvfnen6xeps89/DRUGS",
+    "origin_type": "native",
+    "symbol": "DRUGS",
+    "decimals": 6,
+    "description": "Distributing Happiness",
+    "image": "injective/asset/drugsoninj.png",
+    "coinGeckoId": ""
+  },
+  {
+    "denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+    "type": "native",
+    "origin_chain": "injective",
+    "origin_denom": "factory/inj104h3hchl7ws8lp78zpvrunvsjdwfjc02r5d0fp/injx",
+    "origin_type": "native",
+    "symbol": "INJX",
+    "decimals": 6,
+    "description": "Injex Finance",
+    "image": "injective/asset/injx.png",
+    "coinGeckoId": "injex-finance"
   }
 ]

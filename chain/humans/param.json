@@ -2,9 +2,9 @@
     "chain_id_cosmos" : "humans_1089-1",
     "chain_id_evm" : "0x441",
     "chain_name": "Humans.ai",
-    "chain_image": "humans/resource/chain_humans.png",
-    "symbol" : "EVMOS",
-    "symbol_image" : "humans/asset/humans.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/resource/chain_humans.png",
+    "symbol" : "HEART",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/humans/asset/humans.png",
     "bechAccountPrefix" : "human",
     "bechValidatorPrefix" : "humanvaloper",
     "name_for_dapp" : "HUMANS.AI", 
@@ -35,6 +35,28 @@
         {
             "provider": "NodeStake",
             "url": "grpc.humans.nodestake.top:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-humans.cosmostation.io/"
+        },
+        {
+            "provider": "NodesHub",
+            "url": "https://humans.api.nodeshub.online/"
+        },
+        {
+            "provider": "itrocket",
+            "url": "https://humans-mainnet-api.itrocket.net/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://humans-rest.staketab.org/"
+        },
+        {
+            "provider": "TheNOP.io",
+            "url": "https://api-humansai.thenop.io/"
         }
     ],
     "evm_rpc_endpoint" : [

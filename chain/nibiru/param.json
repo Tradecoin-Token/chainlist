@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "cataclysm-1",
     "chain_name": "Nibiru",
-    "chain_image": "nibiru/resource/chain_nibiru.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nibiru/resource/chain_nibiru.png",
     "symbol" : "NIBI",
-    "symbol_image" : "nibiru/asset/nibi.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/nibiru/asset/nibi.png",
     "bechAccountPrefix" : "nibi",
     "bechValidatorPrefix" : "nibivaloper",
     "name_for_dapp" : "NIBIRU", 
@@ -48,6 +48,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "nibiru-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-nibiru.cosmostation.io/"
+        },
+        {
+            "provider": "silent",
+            "url": "https://api.nibiru.silentvalidator.com/"
+        },
+        {
+            "provider": "LiveRaveN",
+            "url": "https://nibiru.api.liveraven.net/"
+        },
+        {
+            "provider": "Cogwheel ⚙️",
+            "url": "https://nibiru-api.cogwheel.zone/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://nibiru.api.m.stavr.tech/"
         }
     ],
     "explorer" : {

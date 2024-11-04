@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "bitcanna-1",
     "chain_name": "Bitcanna",
-    "chain_image": "bitcanna/resource/chain_bitcanna.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/resource/chain_bitcanna.png",
     "symbol" : "BCNA",
-    "symbol_image" : "bitcanna/asset/bcna.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitcanna/asset/bcna.png",
     "bechAccountPrefix" : "bcna",
     "bechValidatorPrefix" : "bcnavaloper",
     "name_for_dapp" : "BITCANNA", 
@@ -48,12 +48,34 @@
             "url": "bitcanna.grpc.m.anode.team:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitcanna.cosmostation.io/"
+        },
+        {
+            "provider": "bitcanna",
+            "url": "https://lcd.bitcanna.io/"
+        },
+        {
+            "provider": "Panthea EU",
+            "url": "https://bitcanna-api.panthea.eu/"
+        },
+        {
+            "provider": "SGTstake",
+            "url": "https://api.bitcanna.sgtstake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://bitcanna.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/bitcanna/",
-        "account": "https://www.mintscan.io/bitcanna/address/${address}",
-        "tx": "https://www.mintscan.io/bitcanna/tx/${hash}",
-        "proposal": "https://www.mintscan.io/bitcanna/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/bitcanna",
+        "account": "https://atomscan.com/bitcanna/accounts/${address}",
+        "tx": "https://atomscan.com/bitcanna/transactions/${hash}",
+        "proposal": "https://atomscan.com/bitcanna/votes/${id}"
     },
     "about" : {
         "website" : "https://www.bitcanna.io/",

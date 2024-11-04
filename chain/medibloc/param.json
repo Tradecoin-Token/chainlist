@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "panacea-3",
     "chain_name": "Medibloc",
-    "chain_image": "medibloc/resource/chain_medibloc.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/resource/chain_medibloc.png",
     "symbol" : "MED",
-    "symbol_image" : "medibloc/asset/med.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/medibloc/asset/med.png",
     "bechAccountPrefix" : "panacea",
     "bechValidatorPrefix" : "panaceavaloper",
     "name_for_dapp" : "MEDIBLOC", 
@@ -30,6 +30,20 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-medibloc.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-medibloc.cosmostation.io/"
+        },
+        {
+            "provider": "medibloc",
+            "url": "https://api.gopanacea.org/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://panacea-rest.staketab.org/"
         }
     ],
     "explorer" : {

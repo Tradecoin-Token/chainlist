@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "sommelier-3",
     "chain_name": "Sommelier",
-    "chain_image": "sommelier/resource/chain_sommelier.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/resource/chain_sommelier.png",
     "symbol" : "SOMM",
-    "symbol_image" : "sommelier/asset/somm.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/sommelier/asset/somm.png",
     "bechAccountPrefix" : "somm",
     "bechValidatorPrefix" : "sommvaloper",
     "name_for_dapp" : "SOMMELIER", 
@@ -34,6 +34,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "sommelier-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-sommelier.cosmostation.io/"
+        },
+        {
+            "provider": "PUPMØS",
+            "url": "https://api-sommelier.pupmos.network/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://sommelier-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://som.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://sommelier-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

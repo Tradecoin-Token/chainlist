@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "dydx-mainnet-1",
     "chain_name": "dYdX",
-    "chain_image": "dydx/resource/chain_dydx.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/resource/chain_dydx.png",
     "symbol" : "DYDX",
-    "symbol_image" : "dydx/asset/dydx.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dydx/asset/dydx.png",
     "bechAccountPrefix" : "dydx",
     "bechValidatorPrefix" : "dydxvaloper",
     "name_for_dapp" : "DYDX", 
@@ -42,6 +42,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "dydx-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-dydx.cosmostation.io/"
+        },
+        {
+            "provider": "PRO Delegators",
+            "url": "https://community.nuxian-node.ch:6797/dydx/crpc/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://dydx-dao-api.polkachu.com/"
+        },
+        {
+            "provider": "Bware Labs",
+            "url": "https://dydx-mainnet-full-lcd.public.blastapi.io/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://dydx-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

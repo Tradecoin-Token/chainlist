@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "govgen-1",
     "chain_name": "GOVGEN",
-    "chain_image": "govgen/resource/chain_govgen.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/govgen/resource/chain_govgen.png",
     "symbol" : "GOVGEN",
-    "symbol_image" : "govgen/asset/govgen.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/govgen/asset/govgen.png",
     "bechAccountPrefix" : "govgen",
     "bechValidatorPrefix" : "govgenvaloper",
     "name_for_dapp" : "GOVGEN", 
@@ -36,6 +36,20 @@
         {
             "provider": "posthuman",
             "url": "grpc.govgen.posthuman.digital:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-govgen.cosmostation.io/"
+        },
+        {
+            "provider": "AllInBits",
+            "url": "https://api.govgen.io/"
+        },
+        {
+            "provider": "Nodes Hub",
+            "url": "https://govgen.api.nodeshub.online/"
         }
     ],
     "explorer" : {

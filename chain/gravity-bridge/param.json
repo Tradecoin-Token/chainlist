@@ -1,14 +1,21 @@
 {
     "chain_id_cosmos" : "gravity-bridge-3",
     "chain_name": "GravityBridge",
-    "chain_image": "gravity-bridge/resource/chain_gravitybridge.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/resource/chain_gravity-bridge.png",
     "symbol" : "GRAV",
-    "symbol_image" : "gravity-bridge/asset/grav.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/gravity-bridge/asset/grav.png",
     "bechAccountPrefix" : "gravity",
     "bechValidatorPrefix" : "gravityvaloper",
     "name_for_dapp" : "GRAVITY BRIDGE", 
     "api_name" : "gravity-bridge",
     "origin_genesis_time" : "2021-12-10T14:45:49Z",
+    "accountType" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
     "fee" : {
         "base" : "0",
         "rate" : [
@@ -31,6 +38,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "gravitybridge-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-gravity-bridge.cosmostation.io/"
+        },
+        {
+            "provider": "althea",
+            "url": "https://gravitychain.io:1317/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://gravity-api.polkachu.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://gravitybridge-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://gravity-rest.staketab.org/"
         }
     ],
     "explorer" : {

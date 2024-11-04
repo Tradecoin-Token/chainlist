@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "pio-mainnet-1",
     "chain_name": "Provenance",
-    "chain_image": "provenance/resource/chain_provenance.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/resource/chain_provenance.png",
     "symbol" : "HASH",
-    "symbol_image" : "provenance/asset/hash.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/asset/hash.png",
     "bechAccountPrefix" : "pb",
     "bechValidatorPrefix" : "pbvaloper",
     "name_for_dapp" : "PROVENANCE", 
@@ -30,6 +30,28 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-provenance.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-provenance.cosmostation.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://provenance-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://provenance.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://provenance-api.ibs.team/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://provenance-api.highstakes.ch/"
         }
     ],
     "explorer" : {

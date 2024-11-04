@@ -10,6 +10,7 @@
     "name_for_dapp" : "KAVA", 
     "api_name" : "kava",
     "origin_genesis_time" : "2019-11-05T14:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/60'/0'/0/X",
@@ -48,10 +49,6 @@
         {
             "provider": "kava",
             "url": "grpc.data.kava.io:443"
-        },
-        {
-            "provider": "Notional",
-            "url": "grpc-kava-ia.cosmosia.notional.ventures:443"
         }
     ],
     "evm_rpc_endpoint" : [

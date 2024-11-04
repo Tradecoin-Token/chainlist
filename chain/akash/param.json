@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "akashnet-2",
     "chain_name": "Akash",
-    "chain_image": "akash/resource/chain_akash.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/resource/chain_akash.png",
     "symbol" : "AKT",
-    "symbol_image" : "akash/asset/akt.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/akash/asset/akt.png",
     "bechAccountPrefix" : "akash",
     "bechValidatorPrefix" : "akashvaloper",
     "name_for_dapp" : "AKASH", 
@@ -17,9 +17,8 @@
         }
     ],
     "fee" : {
-        "base" : "1",
+        "base" : "0",
         "rate" : [
-            "0.00025uakt",
             "0.0025uakt",
             "0.025uakt"
         ],
@@ -40,6 +39,32 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "akash-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-akash.cosmostation.io/"
+        },
+        {
+            "provider": "forbole",
+            "url": "https://api.akash.forbole.com/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-akash.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes",
+            "url": "https://akash-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://akash-api.polkachu.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-akash.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

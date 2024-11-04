@@ -1,14 +1,15 @@
 {
     "chain_id_cosmos" : "osmosis-1",
     "chain_name": "Osmosis",
-    "chain_image": "osmosis/resource/chain_osmosis.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/resource/chain_osmosis.png",
     "symbol" : "OSMO",
-    "symbol_image" : "osmosis/asset/osmo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/osmosis/asset/osmo.png",
     "bechAccountPrefix" : "osmo",
     "bechValidatorPrefix" : "osmovaloper",
     "name_for_dapp" : "OSMOSIS", 
     "api_name" : "osmosis",
     "origin_genesis_time" : "2021-06-18T17:00:00Z",
+    "moblie_dapp" : true,
     "accountType" : [
         {
             "hd_path": "m/44'/118'/0'/0/X",
@@ -33,20 +34,30 @@
             "url": "grpc-osmosis.cosmostation.io:443"
         },
         {
-            "provider": "Notional",
-            "url": "grpc-osmosis-ia.cosmosia.notional.ventures:443"
-        },
-        {
             "provider": "Stakin",
             "url": "osmosis.grpc.stakin-nodes.com:443"
         },
         {
             "provider": "StakeTown",
             "url": "osmosis-grpc.stake-town.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-osmosis.cosmostation.io/"
         },
         {
-            "provider": "Lavender.Five Nodes 🐝",
-            "url": "osmosis-grpc.lavenderfive.com:443"
+            "provider": "Osmosis Foundation",
+            "url": "https://lcd.osmosis.zone/"
+        },
+        {
+            "provider": "Golden Ratio Staking",
+            "url": "https://rest.osmosis.goldenratiostaking.net/"
+        },
+        {
+            "provider": "Chainlayer",
+            "url": "https://osmosis-lcd.quickapi.com/"
         }
     ],
     "explorer" : {

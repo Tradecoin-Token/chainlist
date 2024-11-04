@@ -2,9 +2,9 @@
     "chain_id_cosmos" : "dymension_1100-1",
     "chain_id_evm" : "0x44c",
     "chain_name": "Dymension",
-    "chain_image": "dymension/resource/chain_dymension.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/resource/chain_dymension.png",
     "symbol" : "DYM",
-    "symbol_image" : "dymension/asset/dym.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/dymension/asset/dym.png",
     "bechAccountPrefix" : "dym",
     "bechValidatorPrefix" : "dymvaloper",
     "name_for_dapp" : "DYMENSION", 
@@ -69,6 +69,28 @@
         {
             "provider": "Wave",
             "url": "https://dymension.0xwave.com:2087"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-dymension.cosmostation.io/"
+        },
+        {
+            "provider": "NodeStake",
+            "url": "https://api.dymension.nodestake.org/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://dymension-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://dymension-api.lavenderfive.com/"
+        },
+        {
+            "provider": "lesnik | UTSA",
+            "url": "https://m-dymension.api.utsa.tech/"
         }
     ],
     "explorer" : {

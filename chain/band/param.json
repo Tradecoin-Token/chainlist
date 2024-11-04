@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "laozi-mainnet",
     "chain_name": "Band",
-    "chain_image": "band/resource/chain_band.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/resource/chain_band.png",
     "symbol" : "BAND",
-    "symbol_image" : "band/asset/band.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/band/asset/band.png",
     "bechAccountPrefix" : "band",
     "bechValidatorPrefix" : "bandvaloper",
     "name_for_dapp" : "BAND", 
@@ -11,7 +11,7 @@
     "origin_genesis_time" : "2020-05-28T14:00:00Z",
     "accountType" : [
         {
-            "hd_path": "m/44'/118'/0'/0/X",
+            "hd_path": "m/44'/494'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
@@ -35,6 +35,28 @@
         {
             "provider": "StakeTown",
             "url": "band-grpc.stake-town.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-band.cosmostation.io/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://band-api.ibs.team/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-band.cosmos-spaces.cloud/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://bandchain-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://band-api.w3coins.io/"
         }
     ],
     "explorer" : {

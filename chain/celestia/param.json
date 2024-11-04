@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "celestia",
     "chain_name": "Celestia",
-    "chain_image": "celestia/resource/chain_celestia.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/resource/chain_celestia.png",
     "symbol" : "TIA",
-    "symbol_image" : "celestia/asset/tia.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/celestia/asset/tia.png",
     "bechAccountPrefix" : "celestia",
     "bechValidatorPrefix" : "celestiavaloper",
     "name_for_dapp" : "CELESTIA", 
@@ -46,6 +46,28 @@
         {
             "provider": "Stakin",
             "url": "celestia.grpc.stakin-nodes.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-celestia.cosmostation.io/"
+        },
+        {
+            "provider": "Numia",
+            "url": "https://public-celestia-lcd.numia.xyz/"
+        },
+        {
+            "provider": "Newmetric",
+            "url": "https://celestia-rest.mesa.newmetric.xyz/"
+        },
+        {
+            "provider": "Lunar Oasis",
+            "url": "https://api.lunaroasis.net/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://celestia-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

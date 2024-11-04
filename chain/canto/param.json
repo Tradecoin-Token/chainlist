@@ -2,9 +2,9 @@
     "chain_id_cosmos" : "canto_7700-1",
     "chain_id_evm" : "0x1e14",
     "chain_name": "Canto",
-    "chain_image": "canto/resource/chain_canto.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/resource/chain_canto.png",
     "symbol" : "CANTO",
-    "symbol_image" : "canto/asset/canto.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/canto/asset/canto.png",
     "bechAccountPrefix" : "canto",
     "bechValidatorPrefix" : "cantovaloper",
     "name_for_dapp" : "CANTO", 
@@ -28,25 +28,17 @@
         "simul_gas_multiply" : 1.2,
         "fee_threshold" : ""
     },
-    "grpc_endpoint" : [
+    "lcd_endpoint" : [
         {
-            "provider": "Cosmostation",
-            "url": "grpc-canto.cosmostation.io:443"
+            "provider": "Polkachu",
+            "url": "https://canto-api.polkachu.com/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://canto-mainnet-lcd.autostake.com/"
         }
     ],
     "evm_rpc_endpoint" : [
-        {
-            "provider": "Cosmostation",
-            "url": "https://rpc-canto-evm.cosmostation.io"
-        },
-        {
-            "provider": "althea",
-            "url": "https://canto.gravitychain.io"
-        },
-        {
-            "provider": "silent",
-            "url": "https://evm-rpc.canto.silentvalidator.com"
-        },
         {
             "provider": "Slingshot",
             "url": "https://canto.slingshot.finance"
@@ -54,6 +46,10 @@
         {
             "provider": "plexnode",
             "url": "https://mainnode.plexnode.org:8545"
+        },
+        {
+            "provider": "Ansybl",
+            "url": "https://canto-rpc.ansybl.io"
         }
     ],
     "explorer" : {

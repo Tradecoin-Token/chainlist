@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "bitsong-2b",
     "chain_name": "Bitsong",
-    "chain_image": "bitsong/resource/chain_bitsong.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/resource/chain_bitsong.png",
     "symbol" : "BTSG",
-    "symbol_image" : "bitsong/asset/btsg.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/bitsong/asset/btsg.png",
     "bechAccountPrefix" : "bitsong",
     "bechValidatorPrefix" : "bitsongvaloper",
     "name_for_dapp" : "BITSONG", 
@@ -11,7 +11,7 @@
     "origin_genesis_time" : "2021-03-26T20:00:00Z",
     "accountType" : [
         {
-            "hd_path": "m/44'/118'/0'/0/X",
+            "hd_path": "m/44'/639'/0'/0/X",
             "pubkey_style": "secp256k1",
             "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
         }
@@ -38,6 +38,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "bitsong-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-bitsong.cosmostation.io/"
+        },
+        {
+            "provider": "stake.systems",
+            "url": "https://lcd.explorebitsong.com/"
+        },
+        {
+            "provider": "Validatrium",
+            "url": "https://bitsong-api.validatrium.club/"
+        },
+        {
+            "provider": "🐹 Quokka Stake",
+            "url": "https://api.bitsong.quokkastake.io/"
+        },
+        {
+            "provider": "Starsquid",
+            "url": "https://api-bitsong.starsquid.io/"
         }
     ],
     "explorer" : {

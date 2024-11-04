@@ -2,9 +2,9 @@
     "chain_id_cosmos" : "dimension_37-1",
     "chain_id_evm" : "0x25",
     "chain_name": "Xpla",
-    "chain_image": "xpla/resource/chain_xpla.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xpla/resource/chain_xpla.png",
     "symbol" : "XPLA",
-    "symbol_image" : "xpla/asset/xpla.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/xpla/asset/xpla.png",
     "bechAccountPrefix" : "xpla",
     "bechValidatorPrefix" : "xplavaloper",
     "name_for_dapp" : "XPLA", 
@@ -38,6 +38,28 @@
         {
             "provider": "Cosmostation",
             "url": "grpc-xpla.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-xpla.cosmostation.io/"
+        },
+        {
+            "provider": "ZenaAD",
+            "url": "https://dimension-lcd.xpla.io/"
+        },
+        {
+            "provider": "Holdings",
+            "url": "https://dimension-lcd.xpla.dev/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://xpla.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://xpla-api.lavenderfive.com/"
         }
     ],
     "evm_rpc_endpoint" : [

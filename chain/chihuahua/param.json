@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "chihuahua-1",
     "chain_name": "Chihuahua",
-    "chain_image": "chihuahua/resource/chain_chihuahua.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/resource/chain_chihuahua.png",
     "symbol" : "HUAHUA",
-    "symbol_image" : "chihuahua/asset/huahua.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/chihuahua/asset/huahua.png",
     "bechAccountPrefix" : "chihuahua",
     "bechValidatorPrefix" : "chihuahuavaloper",
     "name_for_dapp" : "CHIHUAHUA", 
@@ -43,6 +43,28 @@
         {
             "provider": "Validatus",
             "url": "grpc.chihuahua.validatus.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-chihuahua.cosmostation.io/"
+        },
+        {
+            "provider": "Chihuahua",
+            "url": "https://api.chihuahua.wtf/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-chihuahua.ecostake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://chihua.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://chihuahua-api.polkachu.com/"
         }
     ],
     "explorer" : {

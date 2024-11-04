@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "comdex-1",
     "chain_name": "Comdex",
-    "chain_image": "comdex/resource/chain_comdexs.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/resource/chain_comdex.png",
     "symbol" : "CMDX",
-    "symbol_image" : "comdex/asset/cmdx.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/comdex/asset/cmdx.png",
     "bechAccountPrefix" : "comdex",
     "bechValidatorPrefix" : "comdexvaloper",
     "name_for_dapp" : "COMDEX", 
@@ -39,6 +39,28 @@
         {
             "provider": "StakerHouse",
             "url": "comdex-grpc.stakerhouse.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-comdex.cosmostation.io/"
+        },
+        {
+            "provider": "comdex",
+            "url": "https://rest.comdex.one/"
+        },
+        {
+            "provider": "Polkachu",
+            "url": "https://comdex-api.polkachu.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://comdex.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://comdex-api.lavenderfive.com/"
         }
     ],
     "explorer" : {

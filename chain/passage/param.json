@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "passage-2",
     "chain_name": "Passage",
-    "chain_image": "passage/resource/chain_passage.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/passage/resource/chain_passage.png",
     "symbol" : "PASG",
-    "symbol_image" : "passage/asset/pasg.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/passage/asset/pasg.png",
     "bechAccountPrefix" : "pasg",
     "bechValidatorPrefix" : "pasgvaloper",
     "name_for_dapp" : "PASSAGE", 
@@ -44,6 +44,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "passage-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-passage.cosmostation.io/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://passage-rest.staketab.org/"
+        },
+        {
+            "provider": "ecostake",
+            "url": "https://rest-passage.ecostake.com/"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://passage-api.lavenderfive.com/"
+        },
+        {
+            "provider": "Cosmos Spaces",
+            "url": "https://api-passage.cosmos-spaces.cloud/"
         }
     ],
     "explorer" : {

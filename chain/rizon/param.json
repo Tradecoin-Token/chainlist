@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "titan-1",
     "chain_name": "Rizon",
-    "chain_image": "rizon/resource/chain_rizon.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/resource/chain_rizon.png",
     "symbol" : "ATOLO",
-    "symbol_image" : "rizon/asset/atolo.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/rizon/asset/atolo.png",
     "bechAccountPrefix" : "rizon",
     "bechValidatorPrefix" : "rizonvaloper",
     "name_for_dapp" : "RIZON", 
@@ -34,12 +34,26 @@
             "url": "grpc-rizon.cosmostation.io:443"
         }
     ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-rizon.cosmostation.io/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.rizon.chaintools.tech/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://rizon.api.m.stavr.tech/"
+        }
+    ],
     "explorer" : {
-        "name": "Mintscan",
-        "url": "https://www.mintscan.io/rizon/",
-        "account": "https://www.mintscan.io/rizon/address/${address}",
-        "tx": "https://www.mintscan.io/rizon/tx/${hash}",
-        "proposal": "https://www.mintscan.io/rizon/proposals/${id}"
+        "name": "Atomscan",
+        "url": "https://atomscan.com/rizon",
+        "account": "https://atomscan.com/rizon/accounts/${address}",
+        "tx": "https://atomscan.com/rizon/transactions/${hash}",
+        "proposal": "https://atomscan.com/rizon/votes/${id}"
     },
     "about" : {
         "website" : "https://rizon.world/",

@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "axelar-dojo-1",
     "chain_name": "Axelar",
-    "chain_image": "axelar/resource/chain_axelar.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/resource/chain_axelar.png",
     "symbol" : "AXL",
-    "symbol_image" : "axelar/asset/axl.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/axelar/asset/axl.png",
     "bechAccountPrefix" : "axelar",
     "bechValidatorPrefix" : "axelarvaloper",
     "name_for_dapp" : "AXELAR", 
@@ -43,6 +43,28 @@
         {
             "provider": "Notional",
             "url": "grpc-axelar-ia.cosmosia.notional.ventures:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-axelar.cosmostation.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://axelar-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "Staketab",
+            "url": "https://axelar-rest.staketab.org/"
+        },
+        {
+            "provider": "w3coins",
+            "url": "https://axelar-api.w3coins.io/"
+        },
+        {
+            "provider": "Imperator.co",
+            "url": "https://lcd-axelar.imperator.co/"
         }
     ],
     "explorer" : {

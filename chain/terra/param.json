@@ -1,9 +1,9 @@
 {
     "chain_id_cosmos" : "phoenix-1",
     "chain_name": "Terra",
-    "chain_image": "terra/resource/chain_terra.png",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/resource/chain_terra.png",
     "symbol" : "LUNA",
-    "symbol_image" : "terra/asset/luna.png",
+    "symbol_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
     "bechAccountPrefix" : "terra",
     "bechValidatorPrefix" : "terravaloper",
     "name_for_dapp" : "TERRA", 
@@ -39,6 +39,28 @@
         {
             "provider": "Lavender.Five Nodes 🐝",
             "url": "terra2-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-terra.cosmostation.io/"
+        },
+        {
+            "provider": "🧙 WildSage Labs",
+            "url": "https://lcd-terra.wildsage.io/"
+        },
+        {
+            "provider": "Terraform Labs",
+            "url": "https://phoenix-lcd.terra.dev/"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "https://terra2.tdrsys.com/"
+        },
+        {
+            "provider": "cosmosrescue",
+            "url": "https://terra-api.cosmosrescue.dev/"
         }
     ],
     "explorer" : {
